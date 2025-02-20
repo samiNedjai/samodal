@@ -1,28 +1,21 @@
 {
   "name": "samodal",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "version": "1.0.0",
+  "description": "A simple and customizable React modal component.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": ["src/Modal.jsx", "src/modal.css", "src/index.js"],
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.19.0",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.19.0",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.18",
-    "globals": "^15.14.0",
-    "vite": "^6.1.0"
-  }
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samiNedjai/samodal.git"
+  },
+  "keywords": ["modal", "react", "custom-modal", "react-component"],
+  "license": "MIT"
 }
