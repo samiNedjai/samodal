@@ -23,14 +23,24 @@
   }
   
   .modal-close {
+    all: unset; /* Réinitialise tous les styles hérités */
     position: absolute;
     top: 10px;
     right: 15px;
-    border: none;
-    background: none;
     font-size: 24px;
     cursor: pointer;
-  }
+    background: none !important;
+    color: black !important;
+    border: none !important;
+    padding: 5px !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: 1 !important;
+}
+
+.modal-close:hover {
+  color: red !important;
+}
   
   .modal-title {
     margin-bottom: 10px;
