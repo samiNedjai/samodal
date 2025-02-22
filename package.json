@@ -1,10 +1,15 @@
 {
   "name": "samodal-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and customizable React modal component.",
   "main": "src/index.js",
   "module": "src/index.js",
-  "files": ["dist/", "src/index.js", "src/Modal.jsx", "src/modal.css"],
+  "files": [
+    "dist/",
+    "src/index.js",
+    "src/Modal.jsx",
+    "src/modal.css"
+  ],
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
